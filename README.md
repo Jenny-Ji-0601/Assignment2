@@ -7,15 +7,20 @@ This project applies automated data collection techniques and interactive visual
 This project has social science significance by examining how crime is unevenly distributed across space, time, and crime categories in London. By integrating crime data with police station locations, it provides insight into spatial inequality in urban safety and the distribution of policing resources. The interactive visualisations further support social science analysis by making complex crime patterns accessible and interpretable.
 
 
+
 # Project Structure
 The compressed project folder contains:
 - R scripts (`.R`)  
-- Datasets (`.csv`)  
+- Datasets (`.csv`) in the file
 - README file(`.md`)  
-- The main report (`.html`)  
+- The main report (`.html`)
+- Quarto document (`.qmd`)
+- Render-generated files
 - Shiny App (`.R`)
 - Assignment coversheet
 - The project (`.Rproj`)
+- A file with an image used in Shiny app
+
 
 # Data Sources
 - UK Police API
