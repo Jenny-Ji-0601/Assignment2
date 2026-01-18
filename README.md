@@ -26,7 +26,7 @@ The compressed project folder contains:
 - UK Police API
 - OpenStreetMap (OSM)
 
-Data were collected programmatically using API requests. Due to API rate limits and long runtimes (more than 1 hour), the processed datasets are included in the data/ directory to ensure reproducibility and ease of assessment.
+Data were collected programmatically using API requests. Due to API rate limits and long runtimes (more than 1 hour), the processed datasets are included in the data/ directory to ensure reproducibility and ease of assessment. However, due to the compressed file size exceeding the 500 MB submission limit, the raw dataset have been removed from the data/ directory. Whereas that also means Quarto document (`.qmd`) cannot be successfully rendered. The report can be viewed directly in the HTML file. If access to the raw data is required, the data can be re-collected by running the provided R scripts that query the API.
 
 
 # Project Setup and Reproducibility
