@@ -19,6 +19,7 @@ The compressed project folder contains:
 - The project (`.Rproj`)
 - A file with an image used in Shiny app
 
+
 # Data Sources
 - UK Police API
 - OpenStreetMap (OSM)
